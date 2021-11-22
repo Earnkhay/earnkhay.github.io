@@ -1,0 +1,193 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flights</title>
+    <link rel="stylesheet" href="./bootstrap-5.1.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">   
+    <!-- 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  -->
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light head">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./image/LOGO.jpg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            aria-controls="navbarText" aria-label="Toggle navigation">
+            <span class="navbar-toggle-icon"></span>
+           </button>
+            <div class="collapse navbar-collapse">
+              <ul class="navbar-nav ms-auto me-0 mb-2 ">
+                <li class="nav-item"><a class="nav-link" href="./index.html"><img src="" alt="">HOME</a></li>
+                <li class="nav-item"><a class="nav-link" href="./jabi.html"><img src="" alt="">PLACES</a></li>
+                <li class="nav-item"><a class="nav-link" href=""><img src="" alt=""> FAQs</a></li>
+                <li class="nav-item"><a class="nav-link" href="./signup.html"><img src="" alt=""> SIGN IN</a></li>
+              </ul>
+           </div>
+          </div>
+        </nav>
+
+    <div class="green  w-100 pt-4 pb-3">
+        <h1 class="text-center">FIND THE BEST FLIGHT FOR YOU</h1>
+        <div class="container"></div>
+        <div class="row gx-1 py-5">
+            <div class="col">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1"><img src="./image/Place Marker.jpg" alt=""></span>
+                    <input type="text" class="form-control py-3" placeholder="Lagos" aria-label="Lagos"
+                        aria-describedby="basic-addon1">
+                </div>
+            </div>
+            <div class="col">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1"><img src="./image/Place Marker.png" alt=""></span>
+                    <input type="text" class="form-control py-3" placeholder="To Where?" aria-label="To Where?"
+                        aria-describedby="basic-addon1">
+                </div>
+
+            </div>
+            <div class="col">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1"></span>
+                    <input type="date" class="form-control py-3" placeholder="To Where?" aria-label="To Where?"
+                        aria-describedby="basic-addon1">
+                </div>
+            </div>
+            <div class="col">
+                <!-- <div class="dropdown drop">
+                    <button class="btn w-100 btn-secondary dropdown-toggle drop grey-drop py-3" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Economy
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">CHILDREN 1-18 -  +</a></li>
+                        <li><a class="dropdown-item" href="#">ADULT 18-50 -  +</a></li>
+                        <li><a class="dropdown-item" href="#">AGED  50+ -  +</a></li>
+                    </ul> -->                    
+                <select class="form-select  py-3" aria-label=".form-select-lg example">
+                    <option selected>Economy</option>
+                    <option value="1">CHILDREN 1-18 -  +</option>
+                    <option value="2">ADULT 18-50 -  +</option>
+                    <option value="3">AGED  50+ -  +</option>
+                  </select>                
+             </div>
+            <div class="col">
+                <!-- <div class="dropdown">
+                    <button class="btn w-100 btn-secondary dropdown-toggle drop grey-drop py-3" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="">
+                        Find Airlines
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Azman Air</a></li>
+                        <li><a class="dropdown-item" href="#"></a></li>
+                        <li><a class="dropdown-item" href="#"></a></li>
+                        <li><a class="dropdown-item" href="#"></a></li>
+                        <li><a class="dropdown-item" href="#"></a></li>
+                        <li><a class="dropdown-item" href="#"></a></li>
+                        <li><a class="dropdown-item" href="#"></a></li>
+                        <li><a class="dropdown-item" href="#"></a></li>
+                        <li><a class="dropdown-item" href="#"></a></li>
+                        <li><a class="dropdown-item" href="#"></a></li>
+                        <li><a class="dropdown-item" href="#"></a></li>
+                    </ul>
+                </div> -->
+                <select class="form-select py-3" aria-label=".form-select-lg example">
+                    <option selected>Find Airlines</option>
+                    <option value="1">Azman Air</option>
+                    <option value="2">Ibom Air</option>
+                    <option value="3">Overland Airways</option>
+                    <option value="4">Dana Air</option>
+                    <option value="5">Ethiopian Airlines</option>
+                    <option value="6">Middle East Airline</option>
+                    <option value="7">Turkish Airlines</option>
+                    <option value="8">EqyptAir</option>
+                    <option value="9">Air Cote Di ivoire</option>
+                    <option value="10">Air France</option>
+                    <option value="11">Air Peace</option>
+                  </select> 
+            </div>
+        </div>
+        <div class="d-flex w-100 grey-drop p-2 justify-content-between py-4">
+            <div class="form-check">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                   Prefer non-stop
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input " type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+                    Include nearby Airports
+                </label>
+            </div>
+        </div>
+    </div>    
+    </div>
+
+    <div class="box d-flex justify-content-between mt-5">
+        <div class="container"></div>
+
+        <img src="./image/undraw_aircraft_fbvl (1).png"  alt="">
+    </div>
+
+    <div class="container-fluid pt-5 overflow-hidden text-center">
+        <div class="row gx-2">
+          <div class="col">
+            <img src="./image/Rectangle 18.png" alt="">
+            <br><h4>ASMAN AIRLINE</h4>
+          </div>
+          <div class="col">
+            <img src="./image/Rectangle 19.png" alt="">
+            <br><h4>IBOM AIRLINE</h4>
+          </div>
+          <div class="col">
+            <img src="./image/Rectangle 20.png" alt="">
+            <br><h4>DANA AIRLINE</h4>
+          </div>
+          <div class="col">
+            <img src="./image/Rectangle 21.png" alt="">
+            <br><h4>EGYPT AIRLINE</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid back mb-2 mt-5 pt-5">
+        <div class="row">
+          <div class="col-1">
+            <img src="./image/LOGO.jpg" alt="">
+          </div>
+          <div class="col-8">
+         <div class="col d-flex justify-content-between">
+            <div>
+            <p>&copy 2021 Forte CAC All rights reserved</p>
+            <a href="#" class="foot">Terms of use</a><br>
+            <br>
+            <a href="#" class="foot">Privacy and cookies statement</a>
+            </div>
+            
+            <div class="mt-5">
+                <a href="#" class="foot">Cookies consent</a> <br>
+                <br>
+                <a href="#" class="foot">Site map</a>
+            </div>
+         </div>
+
+            <p class="mt-5 mb-3">This is the version of our website addressed to speakers of English
+                in Nigeria.</p>
+          </div>
+          <div class="col my-5 ms-5 mt-5">
+              <h4>Contact Us</h4>
+              <div class="col">
+                 <img src="./image/Vector (1).jpg" alt="">
+                 <img src="./image/Vector (2).jpg" alt="">
+                 <img src="./image/Vector (3).jpg" alt="">
+              </div>
+          </div>
+        </div>
+      </div>
+      <script src="./bootstrap-5.1.1-dist/js/bootstrap.js"></script>
+</body>
+
+</html>
